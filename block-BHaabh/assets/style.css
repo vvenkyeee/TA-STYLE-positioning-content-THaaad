@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+*, *::before *::after {
+    box-sizing: border-box;
+}
+.header {
+	background-color: #5385C1;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+	clear: both;
+}
+.container {
+	width: 1600px;
+	margin: 0 auto;
+	background-color: #5385C1;
+
+}
+.left {
+	float: left;
+	padding: 100px 0;
+}
+.right {
+	float: right;
+	padding: 100px 0;
+}
+.lefta {
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	padding-right: 16px;
+}
+/* row1 */
+.row1 {
+	background-color: #5385C1;
+}
+.heading {
+	text-align: center;
+	height: 200px;
+}
+.row1 h1 {
+	font-size: 60px;
+	color: white;
+	padding: 10px;
+	font-family: 'Cormorant Garamond', serif;
+}
+.row1 p {
+	font-size: 20px;
+	color: #94B2D8;
+}
+.row2container {
+	background-color: white;
+	width: 1600px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	
+}
+.col {
+	width: 33.33%;
+	float: left;	
+}
+.more {
+	height: 50px;
+	width: 80px;
+	background-color: #5385C1;
+	display:inline-block;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;	
+}
+.col h2 {
+	color: #5385C1;
+	font-size: 28px;
+	line-height: 1.5;
+	margin-top: 80px ;
+	padding-right: 25%;
+	font-family: 'Cormorant Garamond', serif;
+}
+.col p {
+	color: grey;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 20px 0px;
+	padding-right: 25%;
+}
+.row3 {
+	background-color: #5385C1;
+	
+}
+.row3 .container{
+	background-color: #5385C1;
+}
+.row3 h3 {
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+	font-family: 'Cormorant Garamond', serif;
+}
+.row3p {
+	font-size: 20px;
+	color:#94B2D8;
+	text-align: center;
+	padding: 20px;
+}
+.box {
+	width: 200px;
+	border: 2px solid white;
+	background-color: #5385C1;
+	padding: 30px;
+}
+.intro {
+	padding-bottom: 60px;
+}
+h4 {
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 20px;
+	font-family: 'Cormorant Garamond', serif;
+}
+.circle {
+	width: 200px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin: 0 auto;
+}
+.column {
+	padding-bottom: 100px;
+	width: 25%;
+	float: left;
+}
+.row4container {
+	width: 1600px;
+	margin: 0 auto;
+	background-color: white;
+}
+.row4head {
+	font-size: 50px;
+	text-align: center;
+	color: #5385C1;
+	padding-top: 100px;
+}
+.row4p {
+	font-size: 20px;
+	color: #94B2D8;
+	text-align: center;
+	padding: 20px;
+}
+.column4 {
+	width: 50%;
+	float: left;
+}
+.column5 {
+	width: 50%;
+	float: right;
+}
+.imghead {
+	color: #5385C1;
+	font-size: 28px;
+	line-height: 1.5;
+	margin-top: 30px ;
+	padding-right: 25%;
+}
+.imgpara {
+	color: grey;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 20px 0px;
+	padding-right: 25%;
+}
+hr {
+	color: #94B2D8;
+	border: 0.5px dotted  #94B2D8;
+	margin-top: 20px;
+}
+.container1 {
+	width: 1600px;
+	margin: 0 auto;
+}
+.footpara {
+	color: #94B2D8;
+}
+.left2 {
+	float: left;
+	padding: 50px 0;
+}
+.right2 {
+	float: right;
+	padding: 50px 0;
+}
+footer .container {
+	background-color: white;
+}
+.righta {
+	color: #5385C1;
+	padding: 10px;
+}
+
+
+
